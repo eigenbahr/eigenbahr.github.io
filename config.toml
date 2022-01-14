@@ -1,0 +1,73 @@
+baseURL = 'https://kbeamnsidc.github.io'
+languageCode = 'en-us'
+title = 'Kevin W. Beam'
+theme = 'hugo-tufte'
+
+[params]
+  subtitle = "Software Engineer - National Snow and Ice Data Center (NSIDC)"
+  copyrightHolder = "Kevin W. Beam"
+  showPoweredBy = true
+  hidedate = false
+  codeBlocksDark = true
+
+  github = "https://github.com/kbeamnsidc"
+  bitbucket = "https://bitbucket.org/kbeamnsidc/"
+  youtube = "channel/UC8DAko-rktIl_p9i8mwFcIA"
+  # orcid = "0000-0003-0634-3275"
+  # google_scholar = "jm5QaHkAAAAJ"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+# -----------------------------------------------------------------------
+# Navigation menu 
+# -----------------------------------------------------------------------
+[[menu.nav]]
+  name = "Home"
+  pre = "<i class='fas fa-home la-lg'></i>"
+  weight = -110 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "Posts"
+  pre = "<i class='fas fa-book fa-lg'></i> "
+  weight = -100 
+  identifier = "posts"
+  url = "/posts"
+[[menu.nav]]
+  name = "Categories"
+  pre = "<i class='fas fa-tags fa-lg'></i> "
+  weight = -90 
+  identifier = "categories"
+  url = "/categories"
+[[menu.nav]]
+  name = "About"
+  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -80 
+  identifier = "about"
+  url = "/about"
+
+# -----------------------------------------------------------------------
+# FOOTER MENU
+# If you need to add custom links to you footer: put them here. Be aware that this theme is using fontawesome. 
+# Please head to https://fontawesome.com/v4.7/icons/ to pick icons
+# -----------------------------------------------------------------------
+
+[[menu.footer]]
+  pre = "<i class='fa fa-bitbucket fa-lg'></i> "
+  weight = -90 
+  identifier = "custom_link"
+  url = "https://bitbucket.org/kbeamnsidc"
+
+
+# Don't change the settings below
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # make the shortcodes work
+  [markup.highlight]
+      noClasses = false
+
+pygmentsUseClasses = true
+canonifyurls = true
