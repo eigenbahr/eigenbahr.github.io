@@ -21,42 +21,42 @@ theme = 'hugo-tufte'
   series = "series"
   tag = "tags"
 # -----------------------------------------------------------------------
-# Navigation menu 
+# Navigation menu
 # -----------------------------------------------------------------------
 [[menu.nav]]
   name = "Home"
   pre = "<i class='fas fa-home la-lg'></i>"
-  weight = -110 
+  weight = -110
   identifier = "home"
   url = "/"
 [[menu.nav]]
   name = "Posts"
   pre = "<i class='fas fa-book fa-lg'></i> "
-  weight = -100 
+  weight = -100
   identifier = "posts"
   url = "/posts"
 [[menu.nav]]
-  name = "Categories"
-  pre = "<i class='fas fa-tags fa-lg'></i> "
-  weight = -90 
-  identifier = "categories"
-  url = "/categories"
+  name = "Python Links"
+  pre = "<i class='fas fa-bookmark  fa-lg'></i> "
+  weight = -90
+  identifier = "python"
+  url = "/python"
 [[menu.nav]]
   name = "About"
   pre = "<i class='fas fa-info-circle  fa-lg'></i> "
-  weight = -80 
+  weight = -80
   identifier = "about"
   url = "/about"
 
 # -----------------------------------------------------------------------
 # FOOTER MENU
-# If you need to add custom links to you footer: put them here. Be aware that this theme is using fontawesome. 
+# If you need to add custom links to you footer: put them here. Be aware that this theme is using fontawesome.
 # Please head to https://fontawesome.com/v4.7/icons/ to pick icons
 # -----------------------------------------------------------------------
 
 [[menu.footer]]
   pre = "<i class='fa fa-bitbucket fa-lg'></i> "
-  weight = -90 
+  weight = -90
   identifier = "custom_link"
   url = "https://bitbucket.org/kbeamnsidc"
 
