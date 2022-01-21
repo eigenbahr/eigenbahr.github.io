@@ -6,8 +6,11 @@ draft: false
 ---
 
 Some time ago I developed a strategy--a brain hack, more
-accurately--to deal with my accumulating pile of links to interesting
-new packages, articles, tutorials, videos, and the like. The first
+accurately--to deal with my unending cursed curiosity. Instead of the
+47--on average--browser tabs accumulating and clogging my computer's
+memory, I started accumulating a pile of links. This pile was meant to
+collect interesting new packages, articles, tutorials, videos, and the
+like, and of course I would read them all later. Of course. The first
 derivative of my link pile had long been positive, and a close
 inspection of the second derivative revealed that it too showed no
 sign of nearing negative territory. I tapped both gauges with
