@@ -115,6 +115,8 @@ draft: false
 
 ### Documentation
 
+  * [Diátaxis Framework](https://diataxis.fr/)
+  * [What nobody tells you about documentation](https://youtu.be/t4vKPhjcMZg)
   * [Write the Docs](https://www.writethedocs.org/)
   * [Documentation](https://youtu.be/azf6yzuJt54)
   * [Read the Docs](https://docs.readthedocs.io/en/stable/index.html)
