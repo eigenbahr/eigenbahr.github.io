@@ -1,0 +1,290 @@
+<!doctype html><html lang=en-us><head>
+<title>Kevin W. Beam - Python References, Tools, and Articles</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name=description content="Official Python  Python Home Python 3 Documentation The Python Tutorial The Python Language Reference The Python Standard Library Python Packaging Authority Python Packaging User Guide PyPI - The Python Package Index  Conda & Mamba  Conda Tools  Conda Conda Build Miniconda Conda Lock Conda Pack Conda Store   Mamba Conda Forge Anaconda.org Repository  Python Version Management  Pyenv Pyenv Virtualenv Plugin  Linting & Formatting  Flake8 Pylint Black Formatter Tool  Type Annotations  Mypy Typeshed Pyright Pytype  Testing  Pytest Coverage Hypothesis Responses  Scientific Python  SciPy Lectures SciPy NumPy SymPy Pandas Dask Xarray Zarr PyTables SciKit Image SciKit Learn Sci ML  Visualization  Matplotlib Seaborn Bokeh Kepler HoloViz Vega Lite Altair Plotnine  Geospatial  EPSG GDAL PySTAC CartoPy EarthPy Pangeo Iris ICESat-2 Sliderule ICESat-2 IcePyx  Jupyter Notebooks  Jupyter JupyterLab Papermill Jupytext Nbconvert ReviewNB  Functional Programming  O&rsquo;Reilly Functional Python Programming Functional Programming Techniques in Python Funcy Toolz More Itertools Pymonad Returns Lenses Mary Rose Cook, A Practical Intro to Functional Programming Awesome Functional Python  Documentation  Write the Docs Documentation Read the Docs Hosting on RTD Documenting Python I Documenting Python II  Awesome  Awesome Python Awesome Functional Python  Unreviewed Articles & Packages Functional Programming  https://medium. ">
+<link rel=canonical href=https://kbeamnsidc.github.io/python/>
+<link rel=icon type=image/x-icon href=/favicon/favicon.ico>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css>
+<link rel=stylesheet href=https://unpkg.com/purecss@2.0.6/build/pure-min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css>
+<link rel=stylesheet href=/css/hugo-tufte.min.css>
+<link rel=stylesheet href=/css/hugo-tufte-override.css>
+</head>
+<body>
+<div id=layout class=pure-g>
+<article class=pure-u-1>
+<header class=brand>
+<a href=https://kbeamnsidc.github.io><h1>Kevin W. Beam</h1></a>
+<h2>Software Engineer - National Snow and Ice Data Center (NSIDC)</h2>
+<nav class=menu>
+<ul>
+<li><a href=/><i class="fas fa-home la-lg"></i>Home</a></li>
+<li><a href=/posts><i class="fas fa-book fa-lg"></i> Posts</a></li>
+<li><a href=/python><i class="fas fa-bookmark fa-lg"></i> Python Links</a></li>
+<li><a href=/about><i class="fas fa-info-circle fa-lg"></i> About</a></li>
+</ul>
+</nav>
+<hr>
+</header>
+<section>
+<h1 class=content-title>
+<a href=/python/>Python References, Tools, and Articles</a>
+</h1>
+</section>
+<section><h3 id=official-python>Official Python</h3>
+<ul>
+<li><a href=https://www.python.org/>Python Home</a></li>
+<li><a href=https://docs.python.org/3/>Python 3 Documentation</a></li>
+<li><a href=https://docs.python.org/3/tutorial/index.html>The Python Tutorial</a></li>
+<li><a href=https://docs.python.org/3/reference/index.html>The Python Language Reference</a></li>
+<li><a href=https://docs.python.org/3/library/index.html>The Python Standard Library</a></li>
+<li><a href=https://www.pypa.io/en/latest/>Python Packaging Authority</a></li>
+<li><a href=https://packaging.python.org/en/latest/>Python Packaging User Guide</a></li>
+<li><a href=https://pypi.org/>PyPI - The Python Package Index</a></li>
+</ul>
+<h3 id=conda--mamba>Conda & Mamba</h3>
+<ul>
+<li><a href=https://conda.io/en/master/>Conda Tools</a>
+<ul>
+<li><a href=https://conda.io/projects/conda/en/latest/>Conda</a></li>
+<li><a href=https://conda.io/projects/conda-build/en/latest/>Conda Build</a></li>
+<li><a href=https://conda.io/en/master/miniconda.html>Miniconda</a></li>
+<li><a href=https://github.com/conda-incubator/conda-lock>Conda Lock</a></li>
+<li><a href=https://conda.github.io/conda-pack/>Conda Pack</a></li>
+<li><a href=https://conda-store.readthedocs.io/en/latest/>Conda Store</a></li>
+</ul>
+</li>
+<li><a href=https://mamba.readthedocs.io/en/latest/index.html>Mamba</a></li>
+<li><a href=https://conda-forge.org/index.html>Conda Forge</a></li>
+<li><a href=https://anaconda.org/>Anaconda.org Repository</a></li>
+</ul>
+<h3 id=python-version-management>Python Version Management</h3>
+<ul>
+<li><a href=https://github.com/pyenv/pyenv>Pyenv</a></li>
+<li><a href=https://github.com/pyenv/pyenv-virtualenv>Pyenv Virtualenv Plugin</a></li>
+</ul>
+<h3 id=linting--formatting>Linting & Formatting</h3>
+<ul>
+<li><a href=https://flake8.pycqa.org/en/latest/>Flake8</a></li>
+<li><a href=https://pylint.pycqa.org/en/latest/>Pylint</a></li>
+<li><a href=https://black.readthedocs.io/en/stable/>Black Formatter Tool</a></li>
+</ul>
+<h3 id=type-annotations>Type Annotations</h3>
+<ul>
+<li><a href=http://www.mypy-lang.org/>Mypy</a></li>
+<li><a href=https://github.com/python/typeshed>Typeshed</a></li>
+<li><a href=https://github.com/Microsoft/pyright>Pyright</a></li>
+<li><a href=https://google.github.io/pytype/>Pytype</a></li>
+</ul>
+<h3 id=testing>Testing</h3>
+<ul>
+<li><a href=https://docs.pytest.org/en/latest/>Pytest</a></li>
+<li><a href=https://coverage.readthedocs.io/en/latest/>Coverage</a></li>
+<li><a href=https://hypothesis.readthedocs.io/en/latest/>Hypothesis</a></li>
+<li><a href=https://github.com/getsentry/responses>Responses</a></li>
+</ul>
+<h3 id=scientific-python>Scientific Python</h3>
+<ul>
+<li><a href=https://scipy-lectures.org/>SciPy Lectures</a></li>
+<li><a href=https://scipy.org/>SciPy</a></li>
+<li><a href=https://numpy.org/>NumPy</a></li>
+<li><a href=https://www.sympy.org/en/index.html>SymPy</a></li>
+<li><a href=https://pandas.pydata.org/docs/>Pandas</a></li>
+<li><a href=https://dask.org/>Dask</a></li>
+<li><a href=https://xarray.pydata.org/en/latest/index.html>Xarray</a></li>
+<li><a href=https://zarr.readthedocs.io/en/stable/>Zarr</a></li>
+<li><a href=http://www.pytables.org/>PyTables</a></li>
+<li><a href=https://scikit-image.org/>SciKit Image</a></li>
+<li><a href=https://scikit-learn.org/stable/>SciKit Learn</a></li>
+<li><a href=https://sciml.ai/>Sci ML</a></li>
+</ul>
+<h3 id=visualization>Visualization</h3>
+<ul>
+<li><a href=https://matplotlib.org/>Matplotlib</a></li>
+<li><a href=https://seaborn.pydata.org/>Seaborn</a></li>
+<li><a href=https://docs.bokeh.org/en/latest/>Bokeh</a></li>
+<li><a href=https://kepler.gl/>Kepler</a></li>
+<li><a href=https://holoviz.org/>HoloViz</a></li>
+<li><a href=https://vega.github.io/vega-lite/>Vega Lite</a></li>
+<li><a href=https://altair-viz.github.io/>Altair</a></li>
+<li><a href=https://plotnine.readthedocs.io/en/stable/>Plotnine</a></li>
+</ul>
+<h3 id=geospatial>Geospatial</h3>
+<ul>
+<li><a href=https://epsg.io/>EPSG</a></li>
+<li><a href=https://gdal.org/>GDAL</a></li>
+<li><a href=https://pystac.readthedocs.io/en/latest/>PySTAC</a></li>
+<li><a href=https://scitools.org.uk/cartopy/docs/latest/>CartoPy</a></li>
+<li><a href=https://earthpy.readthedocs.io/en/latest/>EarthPy</a></li>
+<li><a href=https://pangeo.io/index.html#>Pangeo</a></li>
+<li><a href=https://scitools-iris.readthedocs.io/en/stable/>Iris</a></li>
+<li><a href=http://icesat2sliderule.org/rtd/>ICESat-2 Sliderule</a></li>
+<li><a href=https://icepyx.readthedocs.io/en/latest/>ICESat-2 IcePyx</a></li>
+</ul>
+<h3 id=jupyter-notebooks>Jupyter Notebooks</h3>
+<ul>
+<li><a href=https://jupyter.org/>Jupyter</a></li>
+<li><a href=https://jupyterlab.readthedocs.io/en/stable/index.html>JupyterLab</a></li>
+<li><a href=https://papermill.readthedocs.io/en/latest/>Papermill</a></li>
+<li><a href=https://jupytext.readthedocs.io/en/latest/>Jupytext</a></li>
+<li><a href=https://nbconvert.readthedocs.io/en/latest/>Nbconvert</a></li>
+<li><a href=https://www.reviewnb.com/>ReviewNB</a></li>
+</ul>
+<h3 id=functional-programming>Functional Programming</h3>
+<ul>
+<li><a href=https://learning.oreilly.com/library/view/functional-python-programming/9781788627061/>O&rsquo;Reilly Functional Python Programming</a></li>
+<li><a href=https://mpkocher.github.io/2019/03/01/Functional-Programming-Techniques-In-Python-Series/>Functional Programming Techniques in Python</a></li>
+<li><a href=https://funcy.readthedocs.io/en/stable/index.html>Funcy</a></li>
+<li><a href=https://toolz.readthedocs.io/en/latest/>Toolz</a></li>
+<li><a href=https://more-itertools.readthedocs.io/en/stable/>More Itertools</a></li>
+<li><a href=https://github.com/jasondelaat/pymonad>Pymonad</a></li>
+<li><a href=https://returns.readthedocs.io/en/latest/>Returns</a></li>
+<li><a href=https://github.com/ingolemo/python-lenses>Lenses</a></li>
+<li><a href=https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming>Mary Rose Cook, A Practical Intro to Functional Programming</a></li>
+<li><a href=https://github.com/sfermigier/awesome-functional-python>Awesome Functional Python</a></li>
+</ul>
+<h3 id=documentation>Documentation</h3>
+<ul>
+<li><a href=https://www.writethedocs.org/>Write the Docs</a></li>
+<li><a href=https://youtu.be/azf6yzuJt54>Documentation</a></li>
+<li><a href=https://docs.readthedocs.io/en/stable/index.html>Read the Docs</a></li>
+<li><a href=https://realpython.com/lessons/hosting-your-documentation-read-docs/>Hosting on RTD</a></li>
+<li><a href=https://realpython.com/documenting-python-code/>Documenting Python I</a></li>
+<li><a href=https://realpython.com/lessons/documenting-your-python-projects-part-2/>Documenting Python II</a></li>
+</ul>
+<h3 id=awesome>Awesome</h3>
+<ul>
+<li><a href=https://github.com/vinta/awesome-python>Awesome Python</a></li>
+<li><a href=https://github.com/sfermigier/awesome-functional-python>Awesome Functional Python</a></li>
+</ul>
+<h1 id=unreviewed-articles--packages>Unreviewed Articles & Packages</h1>
+<h3 id=functional-programming-1>Functional Programming</h3>
+<ul>
+<li><a href=https://medium.com/@rnesytov/using-either-monad-in-python-b6eac698dff5>https://medium.com/@rnesytov/using-either-monad-in-python-b6eac698dff5</a></li>
+</ul>
+<h3 id=packaging>Packaging</h3>
+<ul>
+<li><a href=https://pythonspeed.com/articles/conda-vs-pip/>https://pythonspeed.com/articles/conda-vs-pip/</a></li>
+<li><a href=https://flit.readthedocs.io/en/latest/>https://flit.readthedocs.io/en/latest/</a></li>
+</ul>
+<h3 id=lsp>LSP</h3>
+<ul>
+<li><a href=https://github.com/python-lsp/python-lsp-server>https://github.com/python-lsp/python-lsp-server</a></li>
+</ul>
+<h3 id=docker--conda>Docker & Conda</h3>
+<ul>
+<li><a href=https://pythonspeed.com/docker/>https://pythonspeed.com/docker/</a></li>
+<li><a href=https://pythonspeed.com/articles/base-image-python-docker-images/>https://pythonspeed.com/articles/base-image-python-docker-images/</a></li>
+<li><a href=https://pythonspeed.com/articles/activate-conda-dockerfile/>https://pythonspeed.com/articles/activate-conda-dockerfile/</a></li>
+<li><a href=https://uwekorn.com/2021/03/01/deploying-conda-environments-in-docker-how-to-do-it-right.html>https://uwekorn.com/2021/03/01/deploying-conda-environments-in-docker-how-to-do-it-right.html</a></li>
+<li><a href=https://pythonspeed.com/articles/conda-docker-image-size/>https://pythonspeed.com/articles/conda-docker-image-size/</a></li>
+<li><a href=https://github.com/mamba-org/micromamba-docker/>https://github.com/mamba-org/micromamba-docker/</a></li>
+<li><a href=https://www.docker.com/blog/containerized-python-development-part-1/>https://www.docker.com/blog/containerized-python-development-part-1/</a></li>
+<li><a href=https://pythonspeed.com/articles/official-docker-best-practices/>https://pythonspeed.com/articles/official-docker-best-practices/</a></li>
+<li><a href=https://pythonspeed.com/articles/faster-conda-install/>https://pythonspeed.com/articles/faster-conda-install/</a></li>
+</ul>
+<h3 id=geospatial-1>Geospatial</h3>
+<ul>
+<li><a href=https://mmaelicke.github.io/scikit-gstat/>https://mmaelicke.github.io/scikit-gstat/</a></li>
+<li><a href=https://github.com/mmaelicke/scikit-gstat>https://github.com/mmaelicke/scikit-gstat</a></li>
+<li><a href=https://www.ccgalberta.com/pygeostat/welcome.html>https://www.ccgalberta.com/pygeostat/welcome.html</a></li>
+<li><a href=https://hpgl.github.io/hpgl/>https://hpgl.github.io/hpgl/</a></li>
+<li><a href=https://github.com/GeostatsGuy/GeostatsPy>https://github.com/GeostatsGuy/GeostatsPy</a></li>
+</ul>
+<h3 id=cloud>Cloud</h3>
+<ul>
+<li><a href=https://www.cogeo.org/>https://www.cogeo.org/</a></li>
+<li><a href=http://matthewrocklin.com/blog/work/2018/02/06/hdf-in-the-cloud>http://matthewrocklin.com/blog/work/2018/02/06/hdf-in-the-cloud</a></li>
+<li><a href=https://medium.com/pangeo/cloud-performant-reading-of-netcdf4-hdf5-data-using-the-zarr-library-1a95c5c92314>https://medium.com/pangeo/cloud-performant-reading-of-netcdf4-hdf5-data-using-the-zarr-library-1a95c5c92314</a></li>
+<li><a href=https://www.hdfgroup.org/solutions/hdf-kita/hdf-kita-overview/>https://www.hdfgroup.org/solutions/hdf-kita/hdf-kita-overview/</a></li>
+<li><a href=https://hyp3.asf.alaska.edu/#>https://hyp3.asf.alaska.edu/#</a></li>
+<li><a href=http://icesat2sliderule.org/h5coro/>http://icesat2sliderule.org/h5coro/</a></li>
+</ul>
+<h3 id=uncategorized>Uncategorized</h3>
+<ul>
+<li><a href=https://realpython.com/podcasts/rpp/29/>https://realpython.com/podcasts/rpp/29/</a></li>
+<li><a href=https://realpython.com/podcasts/rpp/49/>https://realpython.com/podcasts/rpp/49/</a></li>
+<li><a href=https://testandcode.com/127>https://testandcode.com/127</a></li>
+<li><a href=https://testandcode.com/140>https://testandcode.com/140</a></li>
+<li><a href=https://pythonspeed.com/>https://pythonspeed.com/</a></li>
+<li><a href=https://github.com/rhettinger/modernpython>https://github.com/rhettinger/modernpython</a></li>
+<li><a href=https://realpython.com/python-type-checking/>https://realpython.com/python-type-checking/</a></li>
+<li><a href=https://github.com/Pilifer/awesome-zen-of-python>https://github.com/Pilifer/awesome-zen-of-python</a></li>
+<li><a href=https://blog.drewolson.org/declarative-validation>https://blog.drewolson.org/declarative-validation</a></li>
+<li><a href=https://pythonspeed.com/memory/>https://pythonspeed.com/memory/</a></li>
+<li><a href=https://realpython.com/tutorials/best-practices/>https://realpython.com/tutorials/best-practices/</a></li>
+<li><a href=https://realpython.com/inner-functions-what-are-they-good-for/>https://realpython.com/inner-functions-what-are-they-good-for/</a></li>
+<li><a href=https://github.com/huangsam/ultimate-python>https://github.com/huangsam/ultimate-python</a></li>
+<li><a href=https://nbviewer.jupyter.org/url/norvig.com/ipython/Probability.ipynb>https://nbviewer.jupyter.org/url/norvig.com/ipython/Probability.ipynb</a></li>
+<li><a href=https://realpython.com/python-collections-module/>https://realpython.com/python-collections-module/</a></li>
+<li><a href=https://archive.is/WAZKr>https://archive.is/WAZKr</a></li>
+<li><a href=https://jalammar.github.io/visual-numpy/>https://jalammar.github.io/visual-numpy/</a></li>
+<li><a href=https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d>https://medium.com/better-programming/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d</a></li>
+<li><a href=https://randomvariable.cc/law-of-large-numbers-central-limit-theorem-python/>https://randomvariable.cc/law-of-large-numbers-central-limit-theorem-python/</a></li>
+<li>Statistics for Hackers: <a href="https://www.youtube.com/watch?v=Iq9DzN6mvYA">https://www.youtube.com/watch?v=Iq9DzN6mvYA</a></li>
+<li><a href=https://talkpython.fm/episodes/show/303/python-for-astronomy-with-dr.-becky>https://talkpython.fm/episodes/show/303/python-for-astronomy-with-dr.-becky</a></li>
+<li><a href=https://talkpython.fm/episodes/show/308/docker-for-python-developers-2021-edition>https://talkpython.fm/episodes/show/308/docker-for-python-developers-2021-edition</a></li>
+<li><a href=https://talkpython.fm/episodes/show/323/best-practices-for-docker-in-production>https://talkpython.fm/episodes/show/323/best-practices-for-docker-in-production</a></li>
+<li><a href=https://talkpython.fm/episodes/show/314/ask-us-about-modern-python-projects-and-tools>https://talkpython.fm/episodes/show/314/ask-us-about-modern-python-projects-and-tools</a></li>
+<li><a href=https://modernpythonprojects.com/>https://modernpythonprojects.com/</a></li>
+<li><a href=https://cjolowicz.github.io/posts/hypermodern-python-01-setup/>https://cjolowicz.github.io/posts/hypermodern-python-01-setup/</a></li>
+<li><a href=https://spiegelmock.com/2020/01/04/python-2020-modern-best-practices/>https://spiegelmock.com/2020/01/04/python-2020-modern-best-practices/</a></li>
+<li><a href="https://www.youtube.com/watch?v=WkUBx3g2QfQ&feature=youtu.be">https://www.youtube.com/watch?v=WkUBx3g2QfQ&feature=youtu.be</a></li>
+<li><a href=https://testdriven.io/guides/complete-python/>https://testdriven.io/guides/complete-python/</a></li>
+<li><a href=https://antonz.org/python-packaging/>https://antonz.org/python-packaging/</a></li>
+<li><a href=https://github.com/carlosperate/awesome-pyproject>https://github.com/carlosperate/awesome-pyproject</a></li>
+<li><a href=https://github.com/flying-sheep/awesome-python-packaging>https://github.com/flying-sheep/awesome-python-packaging</a></li>
+<li><a href=https://pythonspeed.com/articles/distributing-software/>https://pythonspeed.com/articles/distributing-software/</a></li>
+<li><a href=https://realpython.com/python-wheels/>https://realpython.com/python-wheels/</a></li>
+<li><a href=https://pythonspeed.com/articles/memory-profiler-data-scientists/>https://pythonspeed.com/articles/memory-profiler-data-scientists/</a></li>
+<li><a href=https://pythonspeed.com/memory/>https://pythonspeed.com/memory/</a></li>
+<li><a href=https://pythonspeed.com/products/productionhandbook/>https://pythonspeed.com/products/productionhandbook/</a></li>
+<li><a href=https://pythonspeed.com/articles/smaller-python-docker-images/>https://pythonspeed.com/articles/smaller-python-docker-images/</a></li>
+<li><a href=https://pythonspeed.com/articles/conda-docker-image-size/>https://pythonspeed.com/articles/conda-docker-image-size/</a></li>
+<li><a href=https://pythonspeed.com/articles/conda-dependency-management/>https://pythonspeed.com/articles/conda-dependency-management/</a></li>
+<li><a href=https://realpython.com/courses/managing-python-dependencies/>https://realpython.com/courses/managing-python-dependencies/</a></li>
+<li><a href=https://labs.quansight.org/blog/2021/01/python-packaging-brainstorm/>https://labs.quansight.org/blog/2021/01/python-packaging-brainstorm/</a></li>
+<li><a href=https://muttdata.ai/blog/2020/08/21/a-poetic-apology.html>https://muttdata.ai/blog/2020/08/21/a-poetic-apology.html</a></li>
+<li><a href=https://www.activestate.com/resources/quick-reads/python-dependencies-everything-you-need-to-know/>https://www.activestate.com/resources/quick-reads/python-dependencies-everything-you-need-to-know/</a></li>
+<li><a href=https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/>https://www.freecodecamp.org/news/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c/</a></li>
+<li><a href=https://hynek.me/articles/testing-packaging/>https://hynek.me/articles/testing-packaging/</a></li>
+<li><a href=https://github.com/rednafi/pysanity>https://github.com/rednafi/pysanity</a></li>
+<li><a href=https://luminousmen.com/post/python-static-analysis-tools>https://luminousmen.com/post/python-static-analysis-tools</a></li>
+<li><a href="https://flakehell.readthedocs.io/?utm_source=rssutm_medium=rss">https://flakehell.readthedocs.io/?utm_source=rssutm_medium=rss</a></li>
+<li><a href=https://rtpg.co/2020/10/12/pylint-usage.html>https://rtpg.co/2020/10/12/pylint-usage.html</a></li>
+<li><a href=https://www.ucpress.edu/book/9780520294752/the-practice-of-reproducible-research>https://www.ucpress.edu/book/9780520294752/the-practice-of-reproducible-research</a></li>
+<li><a href=https://venthur.de/2021-03-31-python-makefiles.html>https://venthur.de/2021-03-31-python-makefiles.html</a></li>
+</ul>
+</section>
+<section>
+<footer class=page-footer>
+<hr>
+<div class=previous-post style=display:inline-block>
+<a class=link-reverse href="https://kbeamnsidc.github.io/about/?ref=footer">« About Me</a>
+</div>
+<div class=next-post , style=display:inline-block;float:right>
+<a class=link-reverse href="https://kbeamnsidc.github.io/posts/python-references/?ref=footer">Python References, Tools, and Articles »</a>
+</div>
+<ul class=page-footer-menu>
+<li><a href=https://github.com/https://github.com/kbeamnsidc><i class="fab fa-github fa-lg"></i></a></li>
+<li><a href=https://www.youtube.com/channel/UC8DAko-rktIl_p9i8mwFcIA><i class="fab fa-youtube la-lg"></i></a></li>
+<li><a href=https://bitbucket.org/kbeamnsidc><i class="fa fa-bitbucket fa-lg"></i> </a></li>
+</ul>
+<p>
+Powered by <a href=https://gohugo.io>Hugo</a> and the
+<a href=https://github.com/slashformotion/hugo-tufte>Tufte theme</a>.
+</p>
+<div class=copyright>
+<p>
+&copy; 2022
+Kevin W. Beam.
+All rights reserved.
+</p>
+</div>
+</footer>
+</section>
+</article>
+</div>
+</body>
+</html>
