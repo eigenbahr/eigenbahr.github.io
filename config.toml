@@ -36,6 +36,12 @@ theme = 'hugo-tufte'
   identifier = "posts"
   url = "/posts"
 [[menu.nav]]
+  name = "Functional Programming"
+  pre = "<i class='fas fa-cogs  fa-lg'></i> "
+  weight = -95
+  identifier = "fp"
+  url = "/fp"
+[[menu.nav]]
   name = "Python Links"
   pre = "<i class='fas fa-bookmark  fa-lg'></i> "
   weight = -90
