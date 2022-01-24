@@ -18,9 +18,9 @@ material from Scott Wlaschin on his site [F# for Fun and
 Profit](https://fsharpforfunandprofit.com). I consider most of his
 material of interest and use in other languages; fear not the F#! In
 fact, one appeal of functional programming is its almost universal
-application in a wide variety of languages, and without much
-translational drudgework. Understanding function composition, partial
-application, currying, and higher-order functions in one language
-translates quite well to others.
+application in a wide variety of languages without much mental
+translational drudgework. An understanding of function composition,
+partial application, currying, and higher-order functions in one
+language translates quite well to others.
 
 Enjoy!
