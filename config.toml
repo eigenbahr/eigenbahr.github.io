@@ -42,7 +42,7 @@ theme = 'hugo-tufte'
   identifier = "fp"
   url = "/fp"
 [[menu.nav]]
-  name = "Python Links"
+  name = "Python"
   pre = "<i class='fas fa-bookmark  fa-lg'></i> "
   weight = -90
   identifier = "python"
