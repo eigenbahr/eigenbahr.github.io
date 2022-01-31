@@ -227,3 +227,6 @@ draft: false
   * https://rtpg.co/2020/10/12/pylint-usage.html
   * https://www.ucpress.edu/book/9780520294752/the-practice-of-reproducible-research
   * https://venthur.de/2021-03-31-python-makefiles.html
+  * https://sethmlarson.dev/blog/strict-python-function-parameters
+  * https://www.python.org/dev/peps/pep-0671/
+  * https://podaac.jpl.nasa.gov/OPeNDAP-in-the-Cloud
