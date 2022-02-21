@@ -230,3 +230,5 @@ draft: false
   * https://sethmlarson.dev/blog/strict-python-function-parameters
   * https://www.python.org/dev/peps/pep-0671/
   * https://podaac.jpl.nasa.gov/OPeNDAP-in-the-Cloud
+  * https://www.youtube.com/watch?v=EC0CSevbt9k
+  * https://nsls-ii.github.io/scientific-python-cookiecutter/guiding-design-principles.html
